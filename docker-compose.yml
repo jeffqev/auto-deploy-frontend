@@ -1,0 +1,17 @@
+version: '3'
+services:
+  frontend-dep-test:
+    container_name: frontend-dep-test
+    restart: always
+    image: frontend-dep-test
+    build:
+      context: .
+      args:
+        - API_URL=http://201.183.60.49:1541
+    ports:
+      - "1542:80"
+    networks:
+      - net
+networks:
+  net:
+    
