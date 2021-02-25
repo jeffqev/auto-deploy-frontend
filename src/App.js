@@ -42,7 +42,7 @@ function App() {
         <div className="row">
           <div className="col-md-12">
             <div class="card">
-              <div class="card-header">Frontend webhook</div>
+              <div class="card-header">Frontend webhook 2</div>
               <div class="card-body">
                 <p class="card-text">{data.msg}</p>
                 <h5 class="card-title">{data.fecha}</h5>
